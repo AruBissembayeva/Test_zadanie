@@ -1,0 +1,614 @@
+screen {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .screen .div {
+    background-color: #ffffff;
+    overflow: hidden;
+    width: 1440px;
+    height: 805px;
+    position: relative;
+  }
+  
+  .screen .overlap {
+    position: absolute;
+    width: 338px;
+    height: 1024px;
+    top: 0;
+    left: 0;
+    background-color: #add8c033;
+  }
+  
+  .screen .view {
+    position: absolute;
+    width: 168px;
+    height: 37px;
+    top: 17px;
+    left: 130px;
+  }
+  
+  .screen .group {
+    position: absolute;
+    width: 50px;
+    height: 37px;
+    top: 0;
+    left: 0;
+  }
+  
+  .screen .overlap-group {
+    position: absolute;
+    width: 50px;
+    height: 23px;
+    top: 0;
+    left: 0;
+  }
+  
+  .screen .ellipse {
+    position: absolute;
+    width: 38px;
+    height: 15px;
+    top: 6px;
+    left: 6px;
+  }
+  
+  .screen .img {
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    top: 0;
+    left: 21px;
+  }
+  
+  .screen .rectangle {
+    width: 50px;
+    height: 2px;
+    top: 21px;
+    background-color: #515151;
+    border-radius: 36.37px;
+    position: absolute;
+    left: 0;
+  }
+  
+  .screen .rectangle-2 {
+    width: 50px;
+    height: 2px;
+    top: 28px;
+    background-color: #515151;
+    border-radius: 36.37px;
+    position: absolute;
+    left: 0;
+  }
+  
+  .screen .p {
+    position: absolute;
+    top: 0;
+    left: 60px;
+    font-family: "Pangolin", Helvetica;
+    font-weight: 400;
+    color: transparent;
+    font-size: 15.7px;
+    letter-spacing: 1.5px;
+    line-height: 16.2px;
+    white-space: nowrap;
+  }
+  
+  .screen .text-wrapper {
+    color: #f9a01d;
+  }
+  
+  .screen .span {
+    color: #515151;
+  }
+  
+  .screen .div-2 {
+    position: absolute;
+    top: 16px;
+    left: 60px;
+    font-family: "Pangolin", Helvetica;
+    font-weight: 400;
+    color: transparent;
+    font-size: 15.7px;
+    letter-spacing: 1.5px;
+    line-height: 16.2px;
+    white-space: nowrap;
+  }
+  
+  .screen .text-wrapper-2 {
+    position: absolute;
+    top: 603px;
+    left: 158px;
+    font-family: "Manrope", Helvetica;
+    font-weight: 500;
+    color: #515151;
+    font-size: 14px;
+    letter-spacing: 1.33px;
+    line-height: 14.4px;
+    white-space: nowrap;
+  }
+  
+  .screen .component {
+    top: 102px;
+    position: absolute;
+    width: 135px;
+    height: 34px;
+    left: 129px;
+  }
+  
+  .screen .text-wrapper-3 {
+    position: absolute;
+    top: 9px;
+    left: 44px;
+    font-family: "Manrope", Helvetica;
+    font-weight: 500;
+    color: #515151;
+    font-size: 13.5px;
+    letter-spacing: 1.28px;
+    line-height: 13.9px;
+    white-space: nowrap;
+  }
+  
+  .screen .img-2 {
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    top: 8px;
+    left: 8px;
+  }
+  
+  .screen .component-2 {
+    top: 153px;
+    position: absolute;
+    width: 135px;
+    height: 34px;
+    left: 129px;
+  }
+  
+  .screen .component-3 {
+    top: 204px;
+    position: absolute;
+    width: 135px;
+    height: 34px;
+    left: 129px;
+  }
+  
+  .screen .streamline-interface {
+    position: absolute;
+    width: 17px;
+    height: 14px;
+    top: 10px;
+    left: 8px;
+  }
+  
+  .screen .component-4 {
+    top: 256px;
+    position: absolute;
+    width: 135px;
+    height: 34px;
+    left: 129px;
+  }
+  
+  .screen .carbon-analytics {
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    top: 10px;
+    left: 8px;
+  }
+  
+  .screen .component-5 {
+    top: 307px;
+    position: absolute;
+    width: 135px;
+    height: 34px;
+    left: 129px;
+  }
+  
+  .screen .line {
+    width: 168px;
+    height: 1px;
+    top: 80px;
+    left: 130px;
+    position: absolute;
+    object-fit: cover;
+  }
+  
+  .screen .ic-sharp-logout {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 601px;
+    left: 132px;
+  }
+  
+  .screen .overlap-wrapper {
+    position: absolute;
+    width: 56px;
+    height: 56px;
+    top: 10px;
+    left: 1221px;
+  }
+  
+  .screen .mask-group-wrapper {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    top: -2px;
+    left: -2px;
+    border-radius: 30px;
+    border: 2px solid;
+    border-color: #f9a01d;
+  }
+  
+  .screen .mask-group {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 3px;
+    left: 3px;
+  }
+  
+  .screen .text-wrapper-4 {
+    position: absolute;
+    top: 29px;
+    left: 1170px;
+    font-family: "Manrope", Helvetica;
+    font-weight: 500;
+    color: #515151;
+    font-size: 16px;
+    letter-spacing: 1.52px;
+    line-height: 16.5px;
+    white-space: nowrap;
+  }
+  
+  .screen .text-wrapper-5 {
+    position: absolute;
+    top: 100px;
+    left: 378px;
+    font-family: "Manrope", Helvetica;
+    font-weight: 500;
+    color: #515151;
+    font-size: 24px;
+    letter-spacing: 2.28px;
+    line-height: 24.7px;
+    white-space: nowrap;
+  }
+  
+  .screen .overlap-2 {
+    position: absolute;
+    width: 449px;
+    height: 30px;
+    top: 18px;
+    left: 378px;
+  }
+  
+  .screen .text-wrapper-6 {
+    position: absolute;
+    top: 7px;
+    left: 12px;
+    font-family: "Manrope", Helvetica;
+    font-weight: 500;
+    color: #b0afaf;
+    font-size: 12px;
+    letter-spacing: 1.14px;
+    line-height: 12.4px;
+    white-space: nowrap;
+  }
+  
+  .screen .rectangle-3 {
+    width: 449px;
+    height: 30px;
+    top: 0;
+    border: 0.75px solid;
+    border-color: #27ae61;
+    position: absolute;
+    left: 0;
+  }
+  
+  .screen .prime-search {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    top: 6px;
+    left: 411px;
+  }
+  
+  .screen .overlap-3 {
+    position: absolute;
+    width: 109px;
+    height: 20px;
+    top: 287px;
+    left: 377px;
+  }
+  
+  .screen .text-wrapper-7 {
+    position: absolute;
+    top: 4px;
+    left: 11px;
+    font-family: "Manrope", Helvetica;
+    font-weight: 500;
+    color: #515151b2;
+    font-size: 10px;
+    letter-spacing: 0.95px;
+    line-height: 10.3px;
+    white-space: nowrap;
+  }
+  
+  .screen .rectangle-4 {
+    width: 109px;
+    height: 20px;
+    top: 0;
+    border: 0.67px solid;
+    border-color: #515151;
+    position: absolute;
+    left: 0;
+  }
+  
+  .screen .line-2 {
+    width: 1px;
+    height: 39px;
+    top: 18px;
+    left: 1160px;
+    position: absolute;
+    object-fit: cover;
+  }
+  
+  .screen .iconamoon {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 26px;
+    left: 1073px;
+  }
+  
+  .screen .mdi-light-message {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 26px;
+    left: 1117px;
+  }
+  
+  .screen .arrow {
+    top: 33px;
+    left: 1289px;
+    position: absolute;
+    width: 12px;
+    height: 7px;
+  }
+  
+  .screen .overlap-4 {
+    position: absolute;
+    width: 107px;
+    height: 107px;
+    top: 170px;
+    left: 378px;
+    background-color: #ffeacb;
+    background-image: url(https://c.animaapp.com/TMtcKYOI/img/system-uicons-picture.svg);
+    background-size: 100% 100%;
+  }
+  
+  .screen .group-2 {
+    position: absolute;
+    width: 287px;
+    height: 74px;
+    top: 296px;
+    left: 871px;
+  }
+  
+  .screen .text-wrapper-8 {
+    position: absolute;
+    width: 46px;
+    top: 0;
+    left: 0;
+    font-family: "Manrope", Helvetica;
+    font-weight: 500;
+    color: #515151;
+    font-size: 16px;
+    letter-spacing: 1.52px;
+    line-height: 16.5px;
+  }
+  
+  .screen .div-wrapper {
+    position: absolute;
+    width: 285px;
+    height: 43px;
+    top: 31px;
+    left: 0;
+    background-color: #f6f6f6;
+  }
+  
+  .screen .text-wrapper-9 {
+    position: absolute;
+    top: 14px;
+    left: 15px;
+    font-family: "Manrope", Helvetica;
+    font-weight: 500;
+    color: #51515180;
+    font-size: 14px;
+    letter-spacing: 1.33px;
+    line-height: 14.4px;
+    white-space: nowrap;
+  }
+  
+  .screen .group-3 {
+    position: absolute;
+    width: 287px;
+    height: 74px;
+    top: 172px;
+    left: 871px;
+  }
+  
+  .screen .text-wrapper-10 {
+    position: absolute;
+    width: 202px;
+    top: 0;
+    left: 0;
+    font-family: "Manrope", Helvetica;
+    font-weight: 500;
+    color: #515151;
+    font-size: 16px;
+    letter-spacing: 1.52px;
+    line-height: 16.5px;
+  }
+  
+  .screen .group-4 {
+    position: absolute;
+    width: 287px;
+    height: 74px;
+    top: 172px;
+    left: 536px;
+  }
+  
+  .screen .text-wrapper-11 {
+    position: absolute;
+    width: 88px;
+    top: 0;
+    left: 0;
+    font-family: "Manrope", Helvetica;
+    font-weight: 500;
+    color: #515151;
+    font-size: 16px;
+    letter-spacing: 1.52px;
+    line-height: 16.5px;
+  }
+  
+  .screen .group-5 {
+    position: absolute;
+    width: 287px;
+    height: 74px;
+    top: 296px;
+    left: 536px;
+  }
+  
+  .screen .text-wrapper-12 {
+    position: absolute;
+    width: 90px;
+    top: 0;
+    left: 0;
+    font-family: "Manrope", Helvetica;
+    font-weight: 500;
+    color: #515151;
+    font-size: 16px;
+    letter-spacing: 1.52px;
+    line-height: 16.5px;
+  }
+  
+  .screen .group-6 {
+    position: absolute;
+    width: 287px;
+    height: 74px;
+    top: 420px;
+    left: 871px;
+  }
+  
+  .screen .text-wrapper-13 {
+    position: absolute;
+    width: 96px;
+    top: 0;
+    left: 0;
+    font-family: "Manrope", Helvetica;
+    font-weight: 500;
+    color: #515151;
+    font-size: 16px;
+    letter-spacing: 1.52px;
+    line-height: 16.5px;
+  }
+  
+  .screen .overlap-5 {
+    position: absolute;
+    width: 285px;
+    height: 43px;
+    top: 31px;
+    left: 0;
+  }
+  
+  .screen .view-2 {
+    position: absolute;
+    width: 285px;
+    height: 43px;
+    top: 0;
+    left: 0;
+    background-color: #f6f6f6;
+  }
+  
+  .screen .arrow-2 {
+    top: 22px;
+    left: 251px;
+    position: absolute;
+    width: 12px;
+    height: 7px;
+  }
+  
+  .screen .group-7 {
+    position: absolute;
+    width: 287px;
+    height: 168px;
+    top: 420px;
+    left: 536px;
+  }
+  
+  .screen .text-wrapper-14 {
+    position: absolute;
+    top: 0;
+    left: 5px;
+    font-family: "Manrope", Helvetica;
+    font-weight: 500;
+    color: #515151;
+    font-size: 16px;
+    letter-spacing: 1.52px;
+    line-height: 16.5px;
+    white-space: nowrap;
+  }
+  
+  .screen .group-8 {
+    position: absolute;
+    width: 285px;
+    height: 135px;
+    top: 33px;
+    left: 0;
+    background-color: #f6f6f6;
+  }
+  
+  .screen .text-wrapper-15 {
+    position: absolute;
+    top: 14px;
+    left: 14px;
+    font-family: "Manrope", Helvetica;
+    font-weight: 500;
+    color: #a4a4a4;
+    font-size: 14px;
+    letter-spacing: 1.33px;
+    line-height: 14.4px;
+    white-space: nowrap;
+  }
+  
+  .screen .frame {
+    display: flex;
+    width: 285px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 16px 80px;
+    position: absolute;
+    top: 540px;
+    left: 871px;
+    background-color: #f9a01d;
+  }
+  
+  .screen .text-wrapper-16 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Manrope", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 16px;
+    letter-spacing: 1.52px;
+    line-height: 16.5px;
+    white-space: nowrap;
+  }
+  
